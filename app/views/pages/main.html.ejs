@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>BUSCADOR PODER JUDICIAL</title>
+    <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/vendors/components-font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendors/chat/css/chat-window.css">
+    <link rel="stylesheet" href="/css/min/style.css">
+    <link rel="stylesheet" href="/vendors/loaders/loaders.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    <script src="/vendors/jquery/dist/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/conversation.js"></script>
+    <script src="js/global.js"></script>
+    <script src="/js/jquery.mark.min.js"></script>
+</head>
+
+<body class="dvp-body">
+    <div id="dvp-mean-content">
+
+
+        <div class="dvp-header-container">
+            <div class="dvp-blue-header-container">
+
+                <div id="dvp-header-layout" class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header dvp-header-layout-logo">
+                        <a href="/">
+                        <img src="/images/kpmg.png" style="height: 40px;">
+                    </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="dvp-panel">
+            <div class="dvp-panel-div col-md-8 dvp-panel-chat">
+                <div class="row chat-window" id="chat_window_1">
+                    <div class="panel panel-primary" id="panel-primary">
+                        <div class="top-bar">
+                            <div class="col-md-2">
+                                <img src="/images/newwatson.png" style="height: 75px;">
+                            </div>
+                            <div class="col-md-13">
+                                <p class="top-bar-p" style="position:relative;left:10px">Hola! Soy Watson! Tu asistente especialista en resolver todas tus dudas! Empecemos y déjame
+                                    tus preguntas abajo en el chat.</p>
+                            </div>
+                        </div>
+
+                        <div class="panel-body msg_container_base" id="style-1">
+
+                        </div>
+
+                        <div class="panel-footer" id="panel-footer">
+                            <div class="input-group">
+                                <input id="btn-input" type="text" style="width:47vw" class="col-md-17 chat-msg_sent-text" placeholder="Escribe tu pregunta aquí..." onkeydown="ConversationPanel.inputKeyDown(event, this)"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dvp-panel-div col-md-8 dvp-panel-portada" id="panel-bienvenida">
+
+
+            </div>
+            <div class="dvp-panel-div col-md-8 dvp-panel-detalle" id="detalle-busqueda">
+                <div class="dvp-panel-detalle-x">
+                    <a href="#" id="cerrar-detalle">X</a>
+                </div>
+                <div class="dvp-panel-detalle-parrafo" id="style-1">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="dvp-footer-container">
+            <div class="dvp-dark-gray-footer-container">
+
+                <div id="dvp-footer-layout" class="navbar navbar-default " role="navigation">
+                    <div class="navbar-footer dvp-footer-layout-sign">
+                        <p class="p1">Powered by</p>
+                        <p class="p2">&nbsp;IBM Watson</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/vendors/chat/js/chat-window.js"></script>
+    <script src="/js/lightbox.js"></script>
+</body>
+
+</html>
